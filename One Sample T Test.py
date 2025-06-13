@@ -2,7 +2,7 @@
 # this test is used to check if the sample mean is significantly different from a known population mean
 
 import math
-from scipy.stats import t as t_dist
+from scipy.stats import  t as t_dist
 def one_sample_t_test(sample,population_mean,alpha=0.5):
     n = len(sample)
     sample_mean = sum(sample)/n
@@ -18,5 +18,10 @@ def one_sample_t_test(sample,population_mean,alpha=0.5):
     reject_null = p_value < alpha
     return reject_null,p_value,t_stat
 
+sample = [23,50,56,78,34]
+population_mean = 24
+
+reject,p,t = one_sample_t_test(sample,population_mean,alpha=0.05)
+print(f"Reject Null: {reject}, p-value: {p:.4f}, t-stat: {t:.4f}")
 
 
