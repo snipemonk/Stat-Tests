@@ -7,3 +7,11 @@ def z_test(sample,popn_mean,popn_std):
     z = (sum(sample)/n - popn_mean)/(popn_std / (n**0.5))
     p = 2*(1 - norm.cdf(abs(z)))
     return z,p
+
+sample  = [102,98,100,97,103]
+popn_mean = 100
+popn_std = 2
+
+z,p = z_test(sample,popn_mean,popn_std)
+print("Z-score",z)
+print("p-value",p)
