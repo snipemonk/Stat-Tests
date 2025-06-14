@@ -18,7 +18,7 @@ def one_sample_t_test(sample,population_mean,alpha=0.5):
     reject_null = p_value < alpha
     return reject_null,p_value,t_stat
 
-sample = [23,50,56,78,34]
+sample = [23,50,56,78,34,90,100]
 population_mean = 24
 
 reject,p,t = one_sample_t_test(sample,population_mean,alpha=0.05)
