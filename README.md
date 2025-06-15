@@ -7,4 +7,4 @@ This Repo contains all Statistical Tests implemented in Python.
 5. The Fifth file shows the Z test implementation 
 6. This file shows the T-Test for 2 independent samples 
 
-# latest Updates as of 6/11/2025
+# latest Updates as of 6/15/2025
