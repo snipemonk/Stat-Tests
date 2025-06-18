@@ -6,5 +6,8 @@ This Repo contains all Statistical Tests implemented in Python.
 4. The Fourth file shows the Anova test 
 5. The Fifth file shows the Z test implementation 
 6. This file shows the T-Test for 2 independent samples 
+7. One sample Binomial T test 
+8. Mann Whitney Test 
+9. Paired T Test 
 
-# latest Updates as of 6/15/2025
+# latest Updates as of 6/17/2025
