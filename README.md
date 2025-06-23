@@ -10,4 +10,4 @@ This Repo contains all Statistical Tests implemented in Python.
 8. Mann Whitney Test 
 9. Paired T Test 
 
-# latest Updates as of 6/21/2025
+# latest Updates as of 6/23/2025
