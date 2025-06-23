@@ -1,3 +1,5 @@
+# This is an implementation of the Friedman Test using Python from scratch
+
 import numpy as np
 from scipy.stats import rankdata, chi2
 
